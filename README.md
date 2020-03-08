@@ -1,15 +1,16 @@
 # svelte-tailwindcss-template
 
-This is a fork of Svelte's project template to enable usage of Tailwindcss. Refer to https://github.com/sveltejs/template for more info.
+This is a starter template using Svelte and TailwindCSS.
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+This template overwrites the default tailwindcss color palette with the material design color palette. The colors can be found and modified in materialPalette.js
 
-```bash
-npx degit sarioglu/svelte-tailwindcss-template svelte-app
-cd svelte-app
-```
+tailwind is set up as a svelte preprocess. That means that on build all the tailwind classes are put into the bundle.css file. Consequently, Postcss is also installed and purgecss is used to remove unused classes.
 
-_Note that you will need to have [Node.js](https://nodejs.org) installed._
+This template also has autoprefixer which automatically adds vendor specific css prefixes.
+
+tailwindcss-bg-alpha creates background color classes that also have alpha variants. You have to specify what colors to generate these classes for in the tailwind.config.js file
+
+I also included svelte-media because it is so usefull for making mobile friendly svelte apps. I set up the default watchMedia store to use the tailwindcss breakpoints.
 
 ## Get started
 
@@ -29,37 +30,3 @@ npm run dev
 Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
