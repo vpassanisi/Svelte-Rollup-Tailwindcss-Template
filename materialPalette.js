@@ -13,7 +13,7 @@ const materialPalette = {
     a100: "#FF8A80",
     a200: "#FF5252",
     a400: "#FF1744",
-    a700: "#D50000"
+    a700: "#D50000",
   },
   pink: {
     "50": "#FCE4EC",
@@ -29,7 +29,7 @@ const materialPalette = {
     a100: " #FF80AB",
     a200: " #FF4081",
     a400: " #F50057",
-    a700: " #C51162"
+    a700: " #C51162",
   },
   purple: {
     "50": "#F3E5F5",
@@ -45,7 +45,7 @@ const materialPalette = {
     a100: " #EA80FC",
     a200: " #E040FB",
     a400: " #D500F9",
-    a700: " #AA00FF"
+    a700: " #AA00FF",
   },
   "deep-purple": {
     "50": "#EDE7F6",
@@ -61,7 +61,7 @@ const materialPalette = {
     a100: " #B388FF",
     a200: " #7C4DFF",
     a400: " #651FFF",
-    a700: " #6200EA"
+    a700: " #6200EA",
   },
   indigo: {
     "50": "#E8EAF6",
@@ -77,7 +77,7 @@ const materialPalette = {
     a100: " #8C9EFF",
     a200: " #536DFE",
     a400: " #3D5AFE",
-    a700: " #304FFE"
+    a700: " #304FFE",
   },
   blue: {
     "50": "#E3F2FD",
@@ -93,7 +93,7 @@ const materialPalette = {
     a100: " #82B1FF",
     a200: " #448AFF",
     a400: " #2979FF",
-    a700: " #2962FF"
+    a700: " #2962FF",
   },
   "light-blue": {
     "50": "#E1F5FE",
@@ -109,7 +109,7 @@ const materialPalette = {
     a100: " #80D8FF",
     a200: " #40C4FF",
     a400: " #00B0FF",
-    a700: " #0091EA"
+    a700: " #0091EA",
   },
   cyan: {
     "50": "#E0F7FA",
@@ -125,7 +125,7 @@ const materialPalette = {
     a100: " #84FFFF",
     a200: " #18FFFF",
     a400: " #00E5FF",
-    a700: " #00B8D4"
+    a700: " #00B8D4",
   },
   teal: {
     "50": "#E0F2F1",
@@ -141,7 +141,7 @@ const materialPalette = {
     a100: " #A7FFEB",
     a200: " #64FFDA",
     a400: " #1DE9B6",
-    a700: " #00BFA5"
+    a700: " #00BFA5",
   },
   green: {
     "50": "#E8F5E9",
@@ -157,9 +157,8 @@ const materialPalette = {
     a100: "#B9F6CA",
     a200: "#69F0AE",
     a400: "#00E676",
-    a700: "#00C853"
+    a700: "#00C853",
   },
-
   "light-green": {
     "50": "#F1F8E9",
     "100": "#DCEDC8",
@@ -174,9 +173,8 @@ const materialPalette = {
     a100: "#CCFF90",
     a200: "#B2FF59",
     a700: "#64DD17",
-    a400: "#76FF03"
+    a400: "#76FF03",
   },
-
   lime: {
     "50": "#F9FBE7",
     "100": "#F0F4C3",
@@ -191,9 +189,8 @@ const materialPalette = {
     a100: "#F4FF81",
     a200: "#EEFF41",
     a400: "#C6FF00",
-    a700: "#AEEA00"
+    a700: "#AEEA00",
   },
-
   yellow: {
     "50": "#FFFDE7",
     "100": "#FFF9C4",
@@ -208,9 +205,8 @@ const materialPalette = {
     a100: "#FFFF8D",
     a200: "#FFFF00",
     a400: "#FFEA00",
-    a700: "#FFD600"
+    a700: "#FFD600",
   },
-
   amber: {
     "50": "#FFF8E1",
     "100": "#FFECB3",
@@ -225,9 +221,8 @@ const materialPalette = {
     a100: "#FFE57F",
     a200: "#FFD740",
     a400: "#FFC400",
-    a700: "#FFAB00"
+    a700: "#FFAB00",
   },
-
   orange: {
     "50": "#FFF3E0",
     "100": "#FFE0B2",
@@ -242,9 +237,8 @@ const materialPalette = {
     a100: "#FFD180",
     a200: "#FFAB40",
     a400: "#FF9100",
-    a700: "#FF6D00"
+    a700: "#FF6D00",
   },
-
   "deep-orange": {
     "50": "#FBE9E7",
     "100": "#FFCCBC",
@@ -259,9 +253,8 @@ const materialPalette = {
     a100: "#FF9E80",
     a200: "#FF6E40",
     a400: "#FF3D00",
-    a700: "#DD2C00"
+    a700: "#DD2C00",
   },
-
   brown: {
     "50": "#EFEBE9",
     "100": "#D7CCC8",
@@ -272,9 +265,8 @@ const materialPalette = {
     "600": "#6D4C41",
     "700": "#5D4037",
     "800": "#4E342E",
-    "900": "#3E2723"
+    "900": "#3E2723",
   },
-
   gray: {
     "50": "#FAFAFA",
     "100": "#F5F5F5",
@@ -285,9 +277,20 @@ const materialPalette = {
     "600": "#757575",
     "700": "#616161",
     "800": "#424242",
-    "900": "#212121"
+    "900": "#212121",
   },
-
+  "dark-gray": {
+    "50": "#f7f7f7",
+    "100": "#eeeeee",
+    "200": "#e2e2e2",
+    "300": "#d0d0d0",
+    "400": "#ababab",
+    "500": "#8a8a8a",
+    "600": "#636363",
+    "700": "#505050",
+    "800": "#323232",
+    "900": "#121212",
+  },
   "blue-gray": {
     "50": "#ECEFF1",
     "100": "#CFD8DC",
@@ -298,11 +301,10 @@ const materialPalette = {
     "600": "#546E7A",
     "700": "#455A64",
     "800": "#37474F",
-    "900": "#263238"
+    "900": "#263238",
   },
-
   black: "#000000",
-  white: "#FFFFFF"
+  white: "#FFFFFF",
 };
 
 module.exports = materialPalette;
