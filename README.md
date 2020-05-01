@@ -10,6 +10,8 @@ This template also has autoprefixer which automatically adds vendor specific css
 
 tailwindcss-bg-alpha creates background color classes that also have alpha variants. You have to specify what colors to generate these classes for in the tailwind.config.js file
 
+The dark mode uses the tailwindcss-dark-mode package and I set up a store to use it from anywhere in your app. The darkMode store has turnOn() to turn dark mode on and turnOff() to turn dark mode off.
+
 I also included svelte-media because it is so usefull for making mobile friendly svelte apps. I set up the default watchMedia store to use the tailwindcss breakpoints.
 
 ## Get started
